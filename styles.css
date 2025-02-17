@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    text-align: center;
+    font-family: Times New Roman;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, rgb(10, 15, 25), rgb(25, 35, 50));
+    color: rgb(200, 200, 200);
+}
+
+/* Estilos del header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.propuestas{
+    width: 50%;
+    margin-left: 25%;
+}
+
+h1{
+    margin: 0;
+}
+
+.logo {
+    height: 150px;
+}
+
+h1 {
+    color: rgb(140, 114, 77);
+    font-size: 75px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos de las secciones */
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(140, 114, 77);
+}
+
+/* Estilos del equipo */
+.miembro-equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.names{
+    color: rgb(140, 114, 77); 
+    font-weight: bold;
+}
+
+.miembro-equipo img {
+    height: 150px;
+    width: 95px;
+    border-radius:90px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(140, 114, 77);
+}
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(19, 29, 41, 0.9);
+}
